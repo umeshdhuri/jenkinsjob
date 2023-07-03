@@ -8,7 +8,7 @@ android {
     applicationId 'com.sqisland.android.hello'
     minSdkVersion 1
     targetSdkVersion 29
-    versionCode versCode as Integer
-    versionName versName
+    versionCode System.getenv("versCode")
+    versionName System.getenv("versName")
   }
 }
