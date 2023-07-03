@@ -5,7 +5,7 @@ buildscript {
     jcenter()
     google()
   }
-  versionName = "66"
+  versionName '66'
   dependencies {
     classpath 'com.android.tools.build:gradle:3.5.3'
 
